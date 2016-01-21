@@ -11,7 +11,7 @@ easier locationManager for iOS app
 2、在需要获取坐标的位置添加代码即可从block获取坐标
 ```Objc
 [[RTLocationTool shareLocationTool] getLocation];
-    [[RTLocationTool shareLocationTool] returnObject:^(RTLocationObject *locObject){
+[[RTLocationTool shareLocationTool] returnObject:^(RTLocationObject *locObject){
         NSLog(@"sendLocByBlock---\n-%@-%@-%@",locObject.xLoc,locObject.yLoc,locObject.error);
         if(locObject.error != 0){
             NSLog(@"sendLocByBlock error--%@",locObject.error);
