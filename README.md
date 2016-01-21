@@ -1,10 +1,7 @@
-## RTLocationTool
+
+#RTLocationTool  
 easier locationManager for iOS app
 封装了原生的GPS定位，简洁的返回了当前坐标，或是未定位的报错信息
-
----
-#项目名称
-RTLocationTool
 -------------
 
 > 欢迎使用提议
