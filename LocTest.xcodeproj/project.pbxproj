@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1837B6A31C0D47B300EFDD5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B6A21C0D47B300EFDD5A /* main.m */; };
+		1837B6A61C0D47B300EFDD5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B6A51C0D47B300EFDD5A /* AppDelegate.m */; };
+		1837B6A91C0D47B300EFDD5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B6A81C0D47B300EFDD5A /* ViewController.m */; };
+		1837B6AC1C0D47B300EFDD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1837B6AA1C0D47B300EFDD5A /* Main.storyboard */; };
+		1837B6AE1C0D47B300EFDD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1837B6AD1C0D47B300EFDD5A /* Assets.xcassets */; };
+		1837B6B11C0D47B300EFDD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1837B6AF1C0D47B300EFDD5A /* LaunchScreen.storyboard */; };
+		1837B6BC1C0D47B300EFDD5A /* LocTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B6BB1C0D47B300EFDD5A /* LocTestTests.m */; };
+		1837B6C71C0D47B300EFDD5A /* LocTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B6C61C0D47B300EFDD5A /* LocTestUITests.m */; };
+		1837B6D81C0D47CC00EFDD5A /* RTLocationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B6D51C0D47CC00EFDD5A /* RTLocationObject.m */; settings = {ASSET_TAGS = (); }; };
+		1837B6D91C0D47CC00EFDD5A /* RTLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B6D71C0D47CC00EFDD5A /* RTLocationTool.m */; settings = {ASSET_TAGS = (); }; };
+		1837B6DB1C0D47DD00EFDD5A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837B6DA1C0D47DD00EFDD5A /* CoreLocation.framework */; };
+		1837B6DD1C0D47E500EFDD5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837B6DC1C0D47E500EFDD5A /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1837B6B81C0D47B300EFDD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1837B6961C0D47B300EFDD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1837B69D1C0D47B300EFDD5A;
+			remoteInfo = LocTest;
+		};
+		1837B6C31C0D47B300EFDD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1837B6961C0D47B300EFDD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1837B69D1C0D47B300EFDD5A;
+			remoteInfo = LocTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1837B69E1C0D47B300EFDD5A /* LocTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1837B6A21C0D47B300EFDD5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1837B6A41C0D47B300EFDD5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1837B6A51C0D47B300EFDD5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1837B6A71C0D47B300EFDD5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1837B6A81C0D47B300EFDD5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1837B6AB1C0D47B300EFDD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1837B6AD1C0D47B300EFDD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1837B6B01C0D47B300EFDD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1837B6B21C0D47B300EFDD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1837B6B71C0D47B300EFDD5A /* LocTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1837B6BB1C0D47B300EFDD5A /* LocTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocTestTests.m; sourceTree = "<group>"; };
+		1837B6BD1C0D47B300EFDD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1837B6C21C0D47B300EFDD5A /* LocTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1837B6C61C0D47B300EFDD5A /* LocTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocTestUITests.m; sourceTree = "<group>"; };
+		1837B6C81C0D47B300EFDD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1837B6D41C0D47CC00EFDD5A /* RTLocationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLocationObject.h; sourceTree = "<group>"; };
+		1837B6D51C0D47CC00EFDD5A /* RTLocationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLocationObject.m; sourceTree = "<group>"; };
+		1837B6D61C0D47CC00EFDD5A /* RTLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLocationTool.h; sourceTree = "<group>"; };
+		1837B6D71C0D47CC00EFDD5A /* RTLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLocationTool.m; sourceTree = "<group>"; };
+		1837B6DA1C0D47DD00EFDD5A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1837B6DC1C0D47E500EFDD5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1837B69B1C0D47B300EFDD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837B6DD1C0D47E500EFDD5A /* CoreGraphics.framework in Frameworks */,
+				1837B6DB1C0D47DD00EFDD5A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1837B6B41C0D47B300EFDD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1837B6BF1C0D47B300EFDD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1837B6951C0D47B300EFDD5A = {
+			isa = PBXGroup;
+			children = (
+				1837B6DC1C0D47E500EFDD5A /* CoreGraphics.framework */,
+				1837B6DA1C0D47DD00EFDD5A /* CoreLocation.framework */,
+				1837B6A01C0D47B300EFDD5A /* LocTest */,
+				1837B6BA1C0D47B300EFDD5A /* LocTestTests */,
+				1837B6C51C0D47B300EFDD5A /* LocTestUITests */,
+				1837B69F1C0D47B300EFDD5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1837B69F1C0D47B300EFDD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1837B69E1C0D47B300EFDD5A /* LocTest.app */,
+				1837B6B71C0D47B300EFDD5A /* LocTestTests.xctest */,
+				1837B6C21C0D47B300EFDD5A /* LocTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1837B6A01C0D47B300EFDD5A /* LocTest */ = {
+			isa = PBXGroup;
+			children = (
+				1837B6A41C0D47B300EFDD5A /* AppDelegate.h */,
+				1837B6A51C0D47B300EFDD5A /* AppDelegate.m */,
+				1837B6A71C0D47B300EFDD5A /* ViewController.h */,
+				1837B6A81C0D47B300EFDD5A /* ViewController.m */,
+				1837B6D41C0D47CC00EFDD5A /* RTLocationObject.h */,
+				1837B6D51C0D47CC00EFDD5A /* RTLocationObject.m */,
+				1837B6D61C0D47CC00EFDD5A /* RTLocationTool.h */,
+				1837B6D71C0D47CC00EFDD5A /* RTLocationTool.m */,
+				1837B6AA1C0D47B300EFDD5A /* Main.storyboard */,
+				1837B6AD1C0D47B300EFDD5A /* Assets.xcassets */,
+				1837B6AF1C0D47B300EFDD5A /* LaunchScreen.storyboard */,
+				1837B6B21C0D47B300EFDD5A /* Info.plist */,
+				1837B6A11C0D47B300EFDD5A /* Supporting Files */,
+			);
+			path = LocTest;
+			sourceTree = "<group>";
+		};
+		1837B6A11C0D47B300EFDD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1837B6A21C0D47B300EFDD5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1837B6BA1C0D47B300EFDD5A /* LocTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1837B6BB1C0D47B300EFDD5A /* LocTestTests.m */,
+				1837B6BD1C0D47B300EFDD5A /* Info.plist */,
+			);
+			path = LocTestTests;
+			sourceTree = "<group>";
+		};
+		1837B6C51C0D47B300EFDD5A /* LocTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1837B6C61C0D47B300EFDD5A /* LocTestUITests.m */,
+				1837B6C81C0D47B300EFDD5A /* Info.plist */,
+			);
+			path = LocTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1837B69D1C0D47B300EFDD5A /* LocTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1837B6CB1C0D47B300EFDD5A /* Build configuration list for PBXNativeTarget "LocTest" */;
+			buildPhases = (
+				1837B69A1C0D47B300EFDD5A /* Sources */,
+				1837B69B1C0D47B300EFDD5A /* Frameworks */,
+				1837B69C1C0D47B300EFDD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocTest;
+			productName = LocTest;
+			productReference = 1837B69E1C0D47B300EFDD5A /* LocTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1837B6B61C0D47B300EFDD5A /* LocTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1837B6CE1C0D47B300EFDD5A /* Build configuration list for PBXNativeTarget "LocTestTests" */;
+			buildPhases = (
+				1837B6B31C0D47B300EFDD5A /* Sources */,
+				1837B6B41C0D47B300EFDD5A /* Frameworks */,
+				1837B6B51C0D47B300EFDD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1837B6B91C0D47B300EFDD5A /* PBXTargetDependency */,
+			);
+			name = LocTestTests;
+			productName = LocTestTests;
+			productReference = 1837B6B71C0D47B300EFDD5A /* LocTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1837B6C11C0D47B300EFDD5A /* LocTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1837B6D11C0D47B300EFDD5A /* Build configuration list for PBXNativeTarget "LocTestUITests" */;
+			buildPhases = (
+				1837B6BE1C0D47B300EFDD5A /* Sources */,
+				1837B6BF1C0D47B300EFDD5A /* Frameworks */,
+				1837B6C01C0D47B300EFDD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1837B6C41C0D47B300EFDD5A /* PBXTargetDependency */,
+			);
+			name = LocTestUITests;
+			productName = LocTestUITests;
+			productReference = 1837B6C21C0D47B300EFDD5A /* LocTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1837B6961C0D47B300EFDD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = qiqi;
+				TargetAttributes = {
+					1837B69D1C0D47B300EFDD5A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1837B6B61C0D47B300EFDD5A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1837B69D1C0D47B300EFDD5A;
+					};
+					1837B6C11C0D47B300EFDD5A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1837B69D1C0D47B300EFDD5A;
+					};
+				};
+			};
+			buildConfigurationList = 1837B6991C0D47B300EFDD5A /* Build configuration list for PBXProject "LocTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1837B6951C0D47B300EFDD5A;
+			productRefGroup = 1837B69F1C0D47B300EFDD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1837B69D1C0D47B300EFDD5A /* LocTest */,
+				1837B6B61C0D47B300EFDD5A /* LocTestTests */,
+				1837B6C11C0D47B300EFDD5A /* LocTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1837B69C1C0D47B300EFDD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837B6B11C0D47B300EFDD5A /* LaunchScreen.storyboard in Resources */,
+				1837B6AE1C0D47B300EFDD5A /* Assets.xcassets in Resources */,
+				1837B6AC1C0D47B300EFDD5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1837B6B51C0D47B300EFDD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1837B6C01C0D47B300EFDD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1837B69A1C0D47B300EFDD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837B6A91C0D47B300EFDD5A /* ViewController.m in Sources */,
+				1837B6A61C0D47B300EFDD5A /* AppDelegate.m in Sources */,
+				1837B6D91C0D47CC00EFDD5A /* RTLocationTool.m in Sources */,
+				1837B6A31C0D47B300EFDD5A /* main.m in Sources */,
+				1837B6D81C0D47CC00EFDD5A /* RTLocationObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1837B6B31C0D47B300EFDD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837B6BC1C0D47B300EFDD5A /* LocTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1837B6BE1C0D47B300EFDD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837B6C71C0D47B300EFDD5A /* LocTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1837B6B91C0D47B300EFDD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1837B69D1C0D47B300EFDD5A /* LocTest */;
+			targetProxy = 1837B6B81C0D47B300EFDD5A /* PBXContainerItemProxy */;
+		};
+		1837B6C41C0D47B300EFDD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1837B69D1C0D47B300EFDD5A /* LocTest */;
+			targetProxy = 1837B6C31C0D47B300EFDD5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1837B6AA1C0D47B300EFDD5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1837B6AB1C0D47B300EFDD5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1837B6AF1C0D47B300EFDD5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1837B6B01C0D47B300EFDD5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1837B6C91C0D47B300EFDD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1837B6CA1C0D47B300EFDD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1837B6CC1C0D47B300EFDD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiqi.LocTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1837B6CD1C0D47B300EFDD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiqi.LocTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1837B6CF1C0D47B300EFDD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiqi.LocTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocTest.app/LocTest";
+			};
+			name = Debug;
+		};
+		1837B6D01C0D47B300EFDD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiqi.LocTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocTest.app/LocTest";
+			};
+			name = Release;
+		};
+		1837B6D21C0D47B300EFDD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiqi.LocTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1837B6D31C0D47B300EFDD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiqi.LocTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1837B6991C0D47B300EFDD5A /* Build configuration list for PBXProject "LocTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837B6C91C0D47B300EFDD5A /* Debug */,
+				1837B6CA1C0D47B300EFDD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1837B6CB1C0D47B300EFDD5A /* Build configuration list for PBXNativeTarget "LocTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837B6CC1C0D47B300EFDD5A /* Debug */,
+				1837B6CD1C0D47B300EFDD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1837B6CE1C0D47B300EFDD5A /* Build configuration list for PBXNativeTarget "LocTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837B6CF1C0D47B300EFDD5A /* Debug */,
+				1837B6D01C0D47B300EFDD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1837B6D11C0D47B300EFDD5A /* Build configuration list for PBXNativeTarget "LocTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837B6D21C0D47B300EFDD5A /* Debug */,
+				1837B6D31C0D47B300EFDD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1837B6961C0D47B300EFDD5A /* Project object */;
+}
